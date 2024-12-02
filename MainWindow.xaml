@@ -9,17 +9,18 @@
     <Grid RenderTransformOrigin="1.138,0.452">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="85*"/>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="176*"/>
             <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="139*"/>
+            <ColumnDefinition Width="201*"/>
+            <ColumnDefinition Width="599*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="LoadStatusTextBlock" HorizontalAlignment="Left" Margin="118,78,0,0" TextWrapping="Wrap" Text="     " VerticalAlignment="Top" Width="150" TextChanged="TextBox_TextChanged" Height="36" Grid.Column="4"/>
-        <Button x:Name="LoadSTL" Grid.Column="1" Content="Load STL File" HorizontalAlignment="Left" Margin="149,78,0,0" VerticalAlignment="Top" Height="36" Width="104" Click="Button_Click_load" Grid.ColumnSpan="4"/>
-        <Button x:Name="TranslateOBJ" Grid.Column="1" Content="OBJ Translator" HorizontalAlignment="Left" Margin="149,162,0,0" VerticalAlignment="Top" Height="35" Width="104" Click="Button_Click_translator" Grid.ColumnSpan="4"/>
-        <TextBox x:Name="TranslateStatusTextBlock" HorizontalAlignment="Left" Margin="118,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" TextChanged="TextBox_TextChanged" Height="36" Grid.Column="4"/>
+        <TextBox x:Name="LoadStatusTextBlock" HorizontalAlignment="Center" Margin="0,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" TextChanged="TextBox_TextChanged" Height="36" Grid.Column="5"/>
+        <Button x:Name="LoadSTL" Grid.Column="5" Content="Load STL File" HorizontalAlignment="Left" Margin="2,78,0,0" VerticalAlignment="Top" Height="36" Width="104" Click="Button_Click_load"/>
+        <Button x:Name="TranslateOBJ" Grid.Column="5" Content="OBJ Translator" HorizontalAlignment="Left" Margin="2,162,0,0" VerticalAlignment="Top" Height="35" Width="104" Click="Button_Click_translator"/>
+        <TextBox x:Name="TranslateStatusTextBlock" HorizontalAlignment="Center" Margin="0,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" TextChanged="TextBox_TextChanged" Height="36" Grid.Column="5"/>
 
     </Grid>
 </Window>
